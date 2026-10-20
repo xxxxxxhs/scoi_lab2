@@ -106,16 +106,6 @@ uv run main.py test-videos/book.mp4 --label "book" --show --timeline
 
 Видео с рамками сохраняются в папку `results`.
 
-```bash
-ffmpeg -i mona-lisa.avi -c:v libx264 -crf 12 -pix_fmt yuv420p mona-lisa.mp4
-```
-
-Собственное видео:
-
-```bash
-ffmpeg -i book.mov -vf "fps=30,scale=360:640" -c:v libx264 -crf 18 -pix_fmt yuv420p -an book.mp4
-```
-
 ## 3. Результаты работы и тестирования
 
 ### Тестовые видео
