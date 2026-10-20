@@ -1,0 +1,7 @@
+LW2.pdf
+test-videos/
+results/
+__pycache__
+.venv
+.DS_Store
+.vscode
